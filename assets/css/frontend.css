@@ -1,0 +1,48 @@
+.wpcpc-collections .wpcpc-collection {
+    display: inline-block;
+}
+
+.wpcpc-collections .wpcpc-collection a, .wpcpc-collections .wpcpc-collection img {
+    display: block;
+    margin: 0;
+}
+
+.wpcpc-collections .wpcpc-collection img {
+    max-width: 200px;
+    height: auto;
+    margin: 0;
+}
+
+/* full */
+
+.wpcpc-wrap-full .wpcpc-collection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.wpcpc-wrap-full .wpcpc-collection .wpcpc-collection-image {
+    margin-right: 10px;
+}
+
+.wpcpc-wrap-full .wpcpc-collection .wpcpc-collection-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.wpcpc-wrap-full .wpcpc-collection .wpcpc-collection-name {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.products .product .wpcpc-collections .wpcpc-collection img {
+    max-width: 80px;
+    height: auto;
+    margin: 0;
+}
+
+.wpcpc-banner img {
+    max-width: 100%;
+    height: auto;
+}
